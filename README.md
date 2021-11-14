@@ -10,3 +10,5 @@ Sequence to be followed -
   6. <b>Loss.py</b>
   7. <b>Intro_Softmax.py</b>
   8. <b>Final model.py</b>
+
+<b>Vanilla Neural Network.py</b> - Basic neural network written in 20 lines of code excluding comments explains a great deal of neural networks
