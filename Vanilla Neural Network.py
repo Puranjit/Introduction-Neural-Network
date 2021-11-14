@@ -6,7 +6,7 @@
 import numpy as np
 from numpy.random import randn
 
-# Defining inputs
+# Initializing weights and data
 # N - Input (here we can imagine N as total number of input images inserted into a model)
 # Din - (Input.size) of each image inserted into neural network
 # H - Total number of neurons in the hidden layer
@@ -23,7 +23,10 @@ w1, w2 = randn(Din, H), randn(H, Dout)
 
 # Total epochs for which we will run our model to update weights in each iteration
 # Epoch - iteration in which neural network completes one complete cycle of forward and backward propagation
+
 for epoch in range(7500):
+# Compute loss (sigmoid activation, L2 (Euclidean) loss)
+
     # Using sigmoid activation function as a non-linear function to calculate the output from neurons in hidden layers
     # dim(h) = (64,100)
     h = 1.0/(1.0+np.exp(-x.dot(w1)))
@@ -35,7 +38,8 @@ for epoch in range(7500):
     # Calculating the total loss after each iteration [sum(deviation in predicted output from true label)]
     loss = np.square(y_pred-y).sum()
     print(loss)
-    
+
+# Computing gradients
     # Multiplying the loss vector for each input by a scalar so that it can be used more effectively to minimize loss 
     # (lower magnitude of predicetd loss would lead us to run more number of iterations)
     # dim(dy_pred) = (64,10)
@@ -49,6 +53,7 @@ for epoch in range(7500):
     dh = dy_pred.dot(w2.T)
     dw1 = x.T.dot(dh*h*(1-h))
 
+# Stochastic Gradient (SGD) Step 
     # Updating the initialised weights (w1 & w2) for next iteration (using a learning rate paarmeter which helps in overcoming the problem of vanishing gradient problem)
     # dim(w1) & dim(w2) will remain same throughout execution
     w1 -= 1e-4*dw1
