@@ -1,12 +1,12 @@
 # Introduction-Neural-Network
-This repository includes some basic .py files to understand and create and understand execution of neural networks
+## This repository includes some basic .py files to understand and create and understand execution of neural networks
 
 Sequence to be followed - 
-  1. Introduction.py
-  2. Step2.py
-  3. Vanilla_Neural.py
-  4. Intro_Activation.py
-  5. Intro_2_Exp.py
-  6. Loss.py
-  7. Intro_Softmax.py
-  8. Final model.py
+  1. <b>Introduction.py</b>
+  2. <b>Step2.py</b>
+  3. <b>Vanilla_Neural.py</b>
+  4. <b>Intro_Activation.py</b>
+  5. <b>Intro_2_Exp.py</b>
+  6. <b>Loss.py</b>
+  7. <b>Intro_Softmax.py</b>
+  8. <b>Final model.py</b>
