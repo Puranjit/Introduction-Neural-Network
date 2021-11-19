@@ -13,5 +13,5 @@ Sequence to be followed -
 
 <b>Concept of Backpropagation</b>
 <b>Vanilla Neural Network.py</b>
-<b>Vanilla NeuralNet.ipynb</b> - Jupyter notebook of the above file
-<b>Vanilla Neural Network Network (extended).ipynb</b>
+<b>Vanilla NN.ipynb</b> - Jupyter notebook of the above file
+<b>Vanilla Neural NN (extended).ipynb</b>
