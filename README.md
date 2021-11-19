@@ -11,5 +11,7 @@ Sequence to be followed -
   7. <b>Intro_Softmax.py</b>
   8. <b>Final model.py</b>
 
-<b>Vanilla Neural Network.py</b> - Basic neural network written in 20 lines of code excluding comments explains a great deal of neural networks
+<b>Concept of Backpropagation</b>
+<b>Vanilla Neural Network.py</b>
 <b>Vanilla NeuralNet.ipynb</b> - Jupyter notebook of the above file
+<b>Vanilla Neural Network Network (extended).ipynb</b>
