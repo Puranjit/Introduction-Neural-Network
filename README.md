@@ -12,6 +12,6 @@ Sequence to be followed -
   8. <b>Final model.py</b>
 
 ## Concept of Backpropagation
-<b>Vanilla Neural Network.py</b>
+<b>Vanilla Neural Network.py</b><br>
 <b>Vanilla NN.ipynb</b> - Jupyter notebook of the above file
 <b>Vanilla Neural NN (extended).ipynb</b>
