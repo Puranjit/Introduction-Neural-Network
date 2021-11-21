@@ -1,4 +1,4 @@
-# Introduction-Neural-Network
+# Introduction to Neural Network
 ### This repository includes some basic .py files to understand and create and understand execution of neural networks
 
 Sequence to be followed - 
