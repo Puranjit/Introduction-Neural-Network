@@ -11,7 +11,7 @@ Sequence to be followed -
   7. <b>Intro_Softmax.py</b>
   8. <b>Final model.py</b>
 
-<b>Concept of Backpropagation</b>
+## Concept of Backpropagation
 <b>Vanilla Neural Network.py</b>
 <b>Vanilla NN.ipynb</b> - Jupyter notebook of the above file
 <b>Vanilla Neural NN (extended).ipynb</b>
