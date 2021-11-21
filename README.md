@@ -13,5 +13,5 @@ Sequence to be followed -
 
 ## Concept of Backpropagation
 <b>Vanilla Neural Network.py</b><br>
-<b>Vanilla NN.ipynb</b> - Jupyter notebook of the above file
-<b>Vanilla Neural NN (extended).ipynb</b>
+<b>Vanilla NN.ipynb</b> - Jupyter notebook of the above file<br>
+<b>Vanilla Neural NN (extended).ipynb</b> - explains concept of Back propagation in multiple hidden layers
